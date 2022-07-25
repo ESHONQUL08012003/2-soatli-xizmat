@@ -324,6 +324,9 @@ label {
   label {
     display: block;
   }
+  .aboutme__descritiom {
+    max-width: 246px;
+  }
   .projeck {
     display: flex;
     flex-direction: column;
@@ -346,5 +349,19 @@ label {
   .footer__info {
     flex-direction: column;
     gap: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    max-width: 280px;
+  }
+  .aboutme__img {
+    background-size: 270px 346px;
+  }
+  .aboutme__list {
+    width: 270px;
+  }
+  .aboutme__paragrft {
+    width: 275px;
   }
 }/*# sourceMappingURL=all.css.map */
