@@ -1,0 +1,167 @@
+@media only screen and (max-width: 1400px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .projeck__list {
+    width: 301px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .projeck__btn {
+    width: 226px;
+  }
+
+  .projeck__list {
+    display: block;
+    width: 250px;
+  }
+
+
+
+  .hero__description {
+    padding: 0;
+  }
+
+  .aboutme__img {
+    width: 300px;
+    height: 590px;
+    background-image: url('../imgs/dectob_about.jpg');
+    background-repeat: no-repeat;
+  }
+
+
+
+  @media only screen and(max-width:768px) {
+    .container {
+      max-width: 540px;
+    }
+
+    .aboutme {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      margin-bottom: 30px;
+    }
+
+    .aboutme__img {
+      height: 691px;
+      background-size: cover;
+    }
+
+    .projeck__text {
+      font-size: 33px;
+    }
+
+    .aboutme__descritiom {
+      width: 350px;
+    }
+
+    .hero__description {
+      max-width: 514px;
+      padding: 0;
+
+    }
+
+    .hero__text {
+      font-size: 40px;
+    }
+
+    .aboutme__paragrft {
+      width: 315px;
+      margin-bottom: 60px;
+    }
+
+    .projeck__btn {
+      padding: 17px 0;
+    }
+
+    .projeck__list {
+      margin-right: 10px;
+    }
+  }
+
+  .footer__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer__list {
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .container {
+    max-width: 310px;
+  }
+
+  .aboutme {
+    flex-direction: column;
+  }
+
+  .aboutme__img {
+    background-size: 311px 346px;
+  }
+
+  .aboutme__img {
+    height: 360px;
+  }
+
+  .aboutme__list {
+    max-width: 297px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hero {
+    background-size: contain;
+  }
+
+  label {
+    display: block;
+  }
+
+  .projeck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+.footer__list{
+  flex-direction: column;
+}
+  
+  .projeck__list {
+    display: none;
+  }
+
+    .projeck__text {
+      width: 258px;
+    }
+
+    .footer__logo{
+      flex-direction: column;
+    }
+
+    .footer__info{
+      flex-direction: column;
+      gap: 20px;
+    }
+}

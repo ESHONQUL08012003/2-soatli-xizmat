@@ -1,0 +1,35 @@
+.header__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+
+
+  .nav__list {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .nav__item {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+
+    &:hover {
+      color: #5FB4A2;
+    }
+  }
+}
+
+    label {
+      display: none;
+    }
